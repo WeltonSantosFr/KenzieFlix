@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-container img[alt="kenzieflixlogo"] {
+    width: 230px;
+    height: 70px;
+}
+
+.accounts-container {
+    height: 200px;
+}
+
+.accounts-container ul {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.accounts-container li {
+    list-style: none;
+    width: 180px;
+    height: 250px;
+    margin: 0 5px 0 5px;
+}
+
+.accounts-container ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account p {
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.account:hover p {
+    color: rgb(255, 255, 255, 1);
+}
+
+.figure {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.figure:hover {
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 1.5px white;
+}
+
+.figure img:hover {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border: solid 1.5px #fff;
+    border-radius: 8px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+
+
+/* -webkit-transform: scale(1.1);
+    transform: scale(1.1); */
+
+/* -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease; */
